@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CGExe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\linyue\AppData\Local\Temp\RSP7682.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Lydia\资环6班\大二下\GIS图形算法基础\CGExe\CGExeView.cpp"
+]
+Creating command line "cl.exe @C:\Users\linyue\AppData\Local\Temp\RSP7682.tmp" 
+Creating temporary file "C:\Users\linyue\AppData\Local\Temp\RSP7693.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CGExe.pdb" /debug /machine:I386 /out:"Debug/CGExe.exe" /pdbtype:sept 
+".\Debug\BezierCurve.obj"
+".\Debug\CGExe.obj"
+".\Debug\CGExeDoc.obj"
+".\Debug\CGExeView.obj"
+".\Debug\ChnCities.obj"
+".\Debug\ConvexHull.obj"
+".\Debug\DDALine.obj"
+".\Debug\GeoLayer.obj"
+".\Debug\GeoMap.obj"
+".\Debug\GeoObject.obj"
+".\Debug\GeoPolygon.obj"
+".\Debug\GeoPolyline.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MapProject.obj"
+".\Debug\MyLine1.obj"
+".\Debug\SpatialIndex.obj"
+".\Debug\SpatialIndexArea.obj"
+".\Debug\SpatialObject.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CGExe.res"
+]
+Creating command line "link.exe @C:\Users\linyue\AppData\Local\Temp\RSP7693.tmp"
+<h3>Output Window</h3>
+Compiling...
+CGExeView.cpp
+d:\lydia\资环6班\大二下\gis图形算法基础\cgexe\cgexeview.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\lydia\资环6班\大二下\gis图形算法基础\cgexe\cgexeview.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\lydia\资环6班\大二下\gis图形算法基础\cgexe\cgexeview.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+d:\lydia\资环6班\大二下\gis图形算法基础\cgexe\cgexeview.cpp(437) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+CGExe.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
